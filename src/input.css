@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+    @apply inline-flex rounded-full px-6 py-3 text-sm font-semibold border-2 border-primary bg-primary text-white hover:bg-transparent hover:text-primary ease-out duration-500;
+}
+
+.btn-primary-bis {
+    @apply inline-flex rounded-full px-6 py-3 text-sm font-semibold border-2 border-primary bg-primary text-white hover:bg-transparent hover:text-white hover:border-white ease-out duration-500;
+}
